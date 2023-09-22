@@ -1,0 +1,35 @@
+﻿#region Copyright
+// **********************************************************************
+// Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#
+//
+// Script Name :		#SCRIPTNAME#.cs
+// Author Name :		#AuthorName#
+// Create Time :		#CreateTime#
+// Description :
+// **********************************************************************
+#endregion
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace #NAMESPACE#
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    }
+}
+    
+

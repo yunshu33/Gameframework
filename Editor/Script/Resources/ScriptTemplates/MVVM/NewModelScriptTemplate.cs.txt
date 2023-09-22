@@ -1,0 +1,42 @@
+﻿#region Copyright
+// **********************************************************************
+// Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#
+//
+// Script Name :		#SCRIPTNAME#Model.cs
+// Author Name :		#AuthorName#
+// Create Time :		#CreateTime#
+// Description :
+// **********************************************************************
+#endregion
+
+using GameWorldFramework.RunTime.MVVM;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace #NAMESPACE#
+{
+    [Serializable]
+    public class #SCRIPTNAME#Model : IModelBase<#SCRIPTNAME#Model>
+    {
+        Binder<#SCRIPTNAME#Model> binder;
+
+        public Binder<#SCRIPTNAME#Model> Binder
+        {
+            get
+            {
+                if (binder == null)
+                    binder = new Binder<#SCRIPTNAME#Model>(this);
+
+                return binder;
+            }
+
+        }
+
+        public #SCRIPTNAME#Model DataModel => this;
+    }
+}
+    
+

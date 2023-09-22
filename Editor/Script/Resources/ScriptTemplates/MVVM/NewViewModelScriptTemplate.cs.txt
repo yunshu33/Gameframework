@@ -1,0 +1,36 @@
+﻿#region Copyright
+// **********************************************************************
+// Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#
+//
+// Script Name :		#SCRIPTNAME#ViewModel.cs
+// Author Name :		#AuthorName#
+// Create Time :		#CreateTime#
+// Description :
+// **********************************************************************
+#endregion
+
+using GameWorldFramework.RunTime.MVVM;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace #NAMESPACE#
+{
+    public class #SCRIPTNAME#ViewModel : ViewModelBase<#SCRIPTNAME#View, #SCRIPTNAME#Model>
+    {
+        // Start is called before the first frame update
+        void Start()
+        {
+
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+
+        }
+    }
+}
+    
+
