@@ -10,6 +10,8 @@
 #endregion
 
 
+using UnityEngine;
+
 namespace GameWorldFramework.RunTime
 {
     public interface ISystem
@@ -18,5 +20,7 @@ namespace GameWorldFramework.RunTime
         /// 初始化配置
         /// </summary>
         public void InitConfig();
+
+        public GameObject GameObject { get; }
     }
 }

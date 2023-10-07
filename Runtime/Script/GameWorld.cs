@@ -41,6 +41,7 @@ namespace GameWorldFramework.RunTime
             {
                 Debug.LogWarning("未创建配置文件,使用默认配置运行");
             }
+
             Debug.Log("GameWorld 启动成功");
         }
 
@@ -53,27 +54,24 @@ namespace GameWorldFramework.RunTime
         private static void Auto()
         {
             var gw = GameWorld.Instance;
-            
         }
 
         private void StartUpSystem()
         {
-            
-                var assembly = this.GetType().Assembly;
+            var assembly = this.GetType().Assembly;
 
-                foreach (var systemName in Config.AutoSystemNames)
+            foreach (var systemName in Config.AutoSystemNames)
+            {
+                var type = assembly.GetType(systemName);
+
+                if (type == null)
                 {
-                    var type = assembly.GetType(systemName);
-                    
-                    if (type == null)
-                    {
-                        Debug.LogError($"未找到 类型 {systemName}");
-                        break;
-                    }
-
-                    GetSystem(type);
+                    Debug.LogError($"未找到 类型 {systemName}");
+                    break;
                 }
-           
+
+                GetSystem(type);
+            }
         }
 
         public object GetSystem(Type type)
@@ -83,10 +81,10 @@ namespace GameWorldFramework.RunTime
                 throw new Exception("type 不可为空");
             }
 
-            return systems.TryGetValue(type, out var value) ? value : CreationSystem(type); 
+            return systems.TryGetValue(type, out var value) ? value : CreationSystem(type);
         }
 
-        public T GetSystem<T>() where T : SystemBase, new()
+        public T GetSystem<T>() where T : ISystem, new()
         {
             return (T)GetSystem(typeof(T));
         }
@@ -94,7 +92,7 @@ namespace GameWorldFramework.RunTime
         private object CreationSystem(Type type)
         {
             var obj = new GameObject(type.Name);
-            
+
             var system = obj.AddComponent(type);
 
             if (system == null)
@@ -110,27 +108,27 @@ namespace GameWorldFramework.RunTime
         /// </summary>
         /// <typeparam name="T"></typeparam>
         /// <returns></returns>
-        private T CreationSystem<T>() where T : SystemBase, new()
+        private T CreationSystem<T>() where T : ISystem, new()
         {
             return (T)CreationSystem(typeof(T));
         }
 
-        public SystemBase AddSystem(SystemBase systemBase)
+        public ISystem AddSystem(ISystem system)
         {
-            if (!systems.TryAdd(systemBase.GetType(), systemBase))
+            if (!systems.TryAdd(system.GetType(), system))
             {
-                Debug.LogError($"{systemBase.GetType()} 已经存在");
-                
-                UnityEngine.Object.Destroy(systemBase.gameObject);
-                
+                Debug.LogError($"{system.GetType()} 已经存在");
+
+                UnityEngine.Object.Destroy(system.GameObject);
+
                 return null;
             }
-            
-            systemBase.InitConfig();
-            
-            systemBase.transform.parent = gameWorld.transform;
 
-            return systemBase;
+            system.InitConfig();
+
+            system.GameObject.transform.parent = gameWorld.transform;
+
+            return system;
         }
     }
 }

@@ -19,7 +19,7 @@ using UnityEngine;
 
 namespace GameWorldFramework.RunTime
 {
-    public abstract class SystemBase : MonoBehaviour , ISystem
+    public abstract class SystemBase : MonoBehaviour, ISystem
     {
         protected GameWorld gameWorld;
 
@@ -33,9 +33,8 @@ namespace GameWorldFramework.RunTime
         /// <summary>
         /// 在 Awake 中调用
         /// </summary>
-        public virtual void InitConfig()
-        {
-            
-        }
+        public abstract void InitConfig();
+
+        public GameObject GameObject => gameObject;
     }
 }
