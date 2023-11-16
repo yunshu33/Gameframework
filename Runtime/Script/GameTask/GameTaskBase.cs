@@ -22,7 +22,6 @@ namespace YGameFramework.Runtime.Script.Task
 
         private UnityEvent completionTask;
 
-
         private bool completion = false;
         
         protected TaskSystem TaskSystem
