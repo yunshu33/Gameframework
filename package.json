@@ -1,0 +1,18 @@
+{
+    "name": "com.Yun.Y",
+    "version": "1.2.3",
+    "displayName": "Package Example",
+    "description": "This is an example package",
+    "unity": "2019.1",
+    "unityRelease": "0b5",
+    "keywords": [
+        "keyword1",
+        "keyword2",
+        "keyword3"
+    ],
+    "author": {
+        "name": "YunShu",
+        "email": "1315645341@qq.com",
+        "url": "https://gitee.com/yunshu33/Y-Game-Framework"
+    }
+}

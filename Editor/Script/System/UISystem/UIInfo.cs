@@ -58,7 +58,6 @@ namespace GameWorldFramework.Editor
             
             var bundleName = property.FindPropertyRelative("bundleName");
 
-            
             if (!String.IsNullOrEmpty(bundleName.stringValue))
             {
                 var bundleNamePropertyField = new PropertyField(bundleName, "BundleName");
@@ -67,7 +66,6 @@ namespace GameWorldFramework.Editor
             
                 popup.Add(bundleNamePropertyField);
                
-                
             }
 
             var toggle = new Toggle();
@@ -77,8 +75,6 @@ namespace GameWorldFramework.Editor
             popup.Add(button);
             
             button.clicked += () => { Debug.Log("clicked");};
-
-           
             
             return popup;
         }

@@ -15,21 +15,7 @@ MonoBehaviour:
   m_Infos:
   - path: Assets/Prefabs/Image 1.prefab
     guid: a6e0a5b6efb076941a0b06d48efd5d14
-  - path: Assets/YGameFrameWorkTest/Perfab/Cube.prefab
-    guid: 74bdcff66a0c5054da0951d3309ac12c
-  - path: Assets/AssetBundleTest/AssetBundleTestRes/Square.prefab
-    guid: cf84d4a12b3fc8345b5c5e4cc7184718
+    bundleName: 
   - path: Assets/Prefabs/Image.prefab
     guid: e6d70b5edc44f6a4bb772ac83548390f
-  - path: Assets/Resources/DefaultSceneTransition.prefab
-    guid: 122044c4a6063ed4cbad3ae45abd15ba
-  - path: "Assets/YunComponentPerfab/Prefab/\u5FAA\u73AF\u56FE\u96C6.prefab"
-    guid: 7752b404a6e7fbe468c960cd19b2c585
-  - path: Assets/YunFramework/Perfab/YunFramework.prefab
-    guid: 65fb68857e91f6b4f92213d87bab3665
-  - path: Assets/YunTools/PrefabTest/002.prefab
-    guid: 2d456de92515f734fa5516322d848895
-  - path: Assets/YunFramework/Resources/Perfabs/LogSystem/LogSystem.prefab
-    guid: d780e28d5dd8f2f45a1f56bd4eb7d23e
-  - path: Assets/YunTools/PrefabTest/001.prefab
-    guid: 39c23c4296c0b634abe2e5616c5849df
+    bundleName: 

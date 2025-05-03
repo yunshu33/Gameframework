@@ -1,10 +1,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+
 using UnityEditor.Build;
 using UnityEditor.Build.Reporting;
 using UnityEditor;
 using UnityEditor.Rendering;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -13,8 +15,7 @@ namespace GameWorldFramework.Editor
     /// <summary>
     /// 打包附加操作
     /// </summary>
-    public class BuildAdditionalOperations : IPreprocessBuildWithReport, IPostprocessBuildWithReport,
-        IPreprocessShaders,
+    public class BuildAdditionalOperations : IPreprocessBuildWithReport, IPostprocessBuildWithReport, IPreprocessShaders,
         IProcessSceneWithReport, IActiveBuildTargetChanged
     {
         /// <summary>
@@ -44,33 +45,29 @@ namespace GameWorldFramework.Editor
         /// <exception cref="Exception"></exception>
         public void OnPreprocessBuild(BuildReport report)
         {
-            var guids = AssetDatabase.FindAssets("t:" + nameof(GameWorldEditorConfig));
-
-            var editorConfig =
-                AssetDatabase.LoadAssetAtPath<GameWorldEditorConfig>(
-                    AssetDatabase.GUIDToAssetPath(guids.FirstOrDefault()));
-
-            if (editorConfig is null)
-
-                throw new Exception("未创建 GameWorldFramework EditorConfig");
-
-            Debug.Log($"当前版本号为:{Application.version}");
-
-            var str = PlayerSettings.bundleVersion.Split('.');
-
-            if (str.Length < 3 || str.Length > 3)
-            {
-                throw new Exception("版本号解析错误");
-            }
-
-            PlayerSettings.bundleVersion =
-                $"{int.Parse(str[0]) + editorConfig.versionStacking.x}.{int.Parse(str[1]) + editorConfig.versionStacking.y}.{int.Parse(str[2]) + editorConfig.versionStacking.z}";
-
-            
-           
-
-
-            Debug.Log($"修改后的版本号为:{Application.version}");
+            // var guids = AssetDatabase.FindAssets("t:" + nameof(YGameWorldEditorConfig));
+            //
+            // var editorConfig =
+            //     AssetDatabase.LoadAssetAtPath<YGameWorldEditorConfig>(
+            //         AssetDatabase.GUIDToAssetPath(guids.FirstOrDefault()));
+            //
+            // if (editorConfig is null)
+            //
+            //     throw new Exception("未创建 GameWorldFramework EditorConfig");
+            //
+            // Debug.Log($"当前版本号为:{Application.version}");
+            //
+            // var str = PlayerSettings.bundleVersion.Split('.');
+            //
+            // if (str.Length < 3 || str.Length > 3)
+            // {
+            //     throw new Exception("版本号解析错误");
+            // }
+            //
+            // PlayerSettings.bundleVersion =
+            //     $"{int.Parse(str[0]) + editorConfig.versionStacking.x}.{int.Parse(str[1]) + editorConfig.versionStacking.y}.{int.Parse(str[2]) + editorConfig.versionStacking.z}";
+            //
+            // Debug.Log($"修改后的版本号为:{Application.version}");
         }
 
 
