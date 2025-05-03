@@ -1,6 +1,0 @@
-[submodule "Runtime/Script/Component"]
-	path = Runtime/Script/Component
-	url = git@github.com:yunshu33/GameWorldFramework.Component.git
-[submodule "Runtime/Script/Utility"]
-	path = Runtime/Script/Utility
-	url = git@github.com:yunshu33/GameWorldFramework.Utility.git
