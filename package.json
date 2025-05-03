@@ -1,13 +1,13 @@
 {
-    "name": "com.yun.yunframework",
+    "name": "com.ljvoyage.Gameframework",
     "version": "0.1.1",
-    "displayName": "YunFramework",
-    "description": "Yun 游戏框架",
+    "displayName": "Gameframework",
+    "description": "游戏框架",
     "unity": "2019.1",
     "unityRelease": "0b5",
     "author": {
         "name": "YunShu",
         "email": "1315645341@qq.com",
-        "url": "https://github.com/yunshu33/YunFramework"
+        "url": "https://github.com/yunshu33/Gameframework"
     }
 }

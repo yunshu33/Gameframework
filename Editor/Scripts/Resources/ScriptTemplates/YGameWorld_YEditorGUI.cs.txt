@@ -1,0 +1,45 @@
+﻿#region Copyright
+// **********************************************************************
+// Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#
+//
+// Script Name :		#SCRIPTNAME#.cs
+// Author Name :		#AuthorName#
+// Create Time :		#CreateTime#
+// Description :
+// **********************************************************************
+#endregion
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace YunFramework.Editor.YEditorGUI
+{
+    public class #SCRIPTNAME# : YEditorGUIBase
+    {
+        public #SCRIPTNAME#() : this(new Rect())
+        {
+
+        }
+
+        public #SCRIPTNAME#(Rect rect): this(rect,GUI.skin.label)
+        {
+
+        }
+
+        public #SCRIPTNAME#(GUIStyle style) : this(new Rect(),style)
+        {
+
+        }
+
+        public #SCRIPTNAME#(Rect rect, GUIStyle style): base(rect,style)
+        {
+           
+        }
+
+        public override void OnGUI()
+        {
+            throw new System.NotImplementedException();
+        }
+    }
+}

@@ -1,0 +1,28 @@
+﻿#region Copyright
+// **********************************************************************
+// Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#
+//
+// Script Name :		#SCRIPTNAME#View.cs
+// Author Name :		#AuthorName#
+// Create Time :		#CreateTime#
+// Description :
+// **********************************************************************
+#endregion
+
+using YunFramework.RunTime.MVVM;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace #NAMESPACE#
+{
+    [Serializable]
+    public class #SCRIPTNAME#View :  ViewBase
+    {
+        
+    }
+}
+    
+
