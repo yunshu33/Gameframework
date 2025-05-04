@@ -2,7 +2,7 @@
     "name": "com.ljvoyage.gameframework",
     "version": "0.1.1",
     "displayName": "Gameframework",
-    "description": "游戏框架",
+    "description": "灵境洄游游戏框架",
     "unity": "2019.1",
     "unityRelease": "0b5",
     "author": {
