@@ -1,8 +1,12 @@
 {
-    "name": "YunFramework.Tests",
+    "name": "GameFramework.Editor",
     "rootNamespace": "",
-    "references": [],
-    "includePlatforms": [],
+    "references": [
+        "GUID:2ae71973d1a71984b8129822ef1ee6ae"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,

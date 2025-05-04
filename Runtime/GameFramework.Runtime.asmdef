@@ -1,12 +1,10 @@
 {
-    "name": "YGameFramework.Editor",
+    "name": "GameFramework.Runtime",
     "rootNamespace": "",
     "references": [
-        "GUID:2ae71973d1a71984b8129822ef1ee6ae"
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab"
     ],
-    "includePlatforms": [
-        "Editor"
-    ],
+    "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": false,
