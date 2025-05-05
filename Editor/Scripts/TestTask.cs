@@ -16,7 +16,7 @@ using UnityEngine;
 using System.Threading.Tasks;
 using UnityEngine.UI;
 
-namespace Yun.Util
+namespace LJVoyage.GameEditor
 {
     public class TestTask : MonoBehaviour
     {

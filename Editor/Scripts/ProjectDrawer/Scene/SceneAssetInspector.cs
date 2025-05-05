@@ -4,7 +4,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
 
     [CanEditMultipleObjects, CustomEditor(typeof(SceneAsset))]

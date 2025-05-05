@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor.SceneRouter
 {
     public enum ConnectionPointType { In, Out }
 

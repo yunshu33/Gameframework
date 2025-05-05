@@ -18,7 +18,7 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
     public class SetPrefab : Editor
     {

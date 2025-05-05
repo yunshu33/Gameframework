@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Util
+namespace LJVoyage.GameEditor
 {
 	/// <summary>
 	/// 场景名称属性

@@ -9,6 +9,8 @@ using System.Reflection;
 using System;
 using System.Data;
 
+namespace LJVoyage.GameEditor{
+
 //Excel中间数据
 public class ExcelMediumData
 {
@@ -266,5 +268,6 @@ public static class ExcelDataReader
 
     #endregion
 
+}
 }
 #endif

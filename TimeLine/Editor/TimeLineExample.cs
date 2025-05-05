@@ -1,7 +1,6 @@
-using System;
+
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.UIElements;
 using Yun.UIElements.Runtime;
 
 public class TimeLineExample : EditorWindow

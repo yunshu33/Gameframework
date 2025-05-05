@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Yun.NodeGraphView.Runtime.Node;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class NodeView : Node
     {
@@ -11,7 +11,7 @@ namespace Yun.NodeGraphView.Editor
 
         public NodeBase Node => node;
 
-        public NodeView(NodeBase node)
+        public NodeView( NodeBase node)
         {
             this.node = node;
             

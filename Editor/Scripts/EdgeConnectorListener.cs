@@ -2,7 +2,7 @@
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
    public class EdgeConnectorListener : IEdgeConnectorListener
         {

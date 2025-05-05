@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace YunFramework.Editor.Utility
+namespace LJVoyage.GameEditor
 {
     public class VersionUtility : MonoBehaviour
     {

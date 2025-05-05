@@ -17,7 +17,7 @@ using YunFramework.RunTime;
 using UnityEditor;
 using UnityEngine;
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
     [CustomEditor(typeof(UIPanelInfo))]
     public class UIPanelInfoEditor : UnityEditor.Editor

@@ -14,7 +14,7 @@
 
 using UnityEditor;
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
     public class PrefabCreationCallback : AssetPostprocessor
     {

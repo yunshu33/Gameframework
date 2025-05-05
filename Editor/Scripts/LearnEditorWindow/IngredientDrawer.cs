@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
     public enum IngredientUnit { Spoon, Cup, Bowl, Piece }
 
@@ -30,27 +30,27 @@ namespace Yun.Tools
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
 
-            EditorGUI.BeginProperty(position, label, property); // ¿ªÊ¼»æÖÆÊôÐÔ
+            EditorGUI.BeginProperty(position, label, property); // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-            var indent = EditorGUI.indentLevel; // ÓÃÀ´»º´æÐÞ¸ÄÖ®Ç°µÄËõ½øÖµ
-            EditorGUI.indentLevel = 0;          // ÐÞ¸ÄËõ½øÎª 0£¬²»Ëõ½ø
+            var indent = EditorGUI.indentLevel; // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½Ö®Ç°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµ
+            EditorGUI.indentLevel = 0;          // ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½Îª 0ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
-            // »ñÈ¡ÊôÐÔÇ°Öµ label, ¾ÍÊÇÏÔÊ¾ÔÚ´ËÊôÐÔÇ°ÃæµÄÄÇ¸öÃû³Æ label
+            // ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ç°Öµ label, ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½Ú´ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ label
             position = EditorGUI.PrefixLabel(position, GUIUtility.GetControlID(FocusType.Passive), label);
-            // ¶¨Òå´ËÊôÐÔµÄ×Ó¿òÌåÇøÓò
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½Ó¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
             var amountRect = new Rect(position.x, position.y, 30, position.height);
             var unitRect = new Rect(position.x + 35, position.y, 50, position.height);
             var nameRect = new Rect(position.x + 90, position.y, position.width - 90, position.height);
 
-            // »æÖÆ×ÓÊôÐÔ£ºPropertyField²ÎÊýÒÀ´ÎÊÇ: ¿òÌåÎ»ÖÃ£¬¶ÔÓ¦ÊôÐÔ£¬ÏÔÊ¾µÄlabel
-            // Èç¹ûÄãÒªÏÔÊ¾Ò»¸ölabel£¬µÚÈý¸ö²ÎÊý: new GUIContent("xxx")
+            // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½PropertyFieldï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ï¿½ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½label
+            // ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Ê¾Ò»ï¿½ï¿½labelï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: new GUIContent("xxx")
             EditorGUI.PropertyField(amountRect, property.FindPropertyRelative("amount"), GUIContent.none);
             EditorGUI.PropertyField(unitRect, property.FindPropertyRelative("unit"), GUIContent.none);
             EditorGUI.PropertyField(nameRect, property.FindPropertyRelative("name"), GUIContent.none);
 
-            EditorGUI.indentLevel = indent;   // »Ö¸´Ëõ½ø
+            EditorGUI.indentLevel = indent;   // ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½
 
-            EditorGUI.EndProperty();          // Íê³É»æÖÆ
+            EditorGUI.EndProperty();          // ï¿½ï¿½É»ï¿½ï¿½ï¿½
         }
     }
 }

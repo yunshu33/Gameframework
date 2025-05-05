@@ -20,7 +20,7 @@ using System.IO;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace Yun.Util
+namespace LJVoyage.GameEditor
 {
     /// <summary>
     /// 异步加载文件

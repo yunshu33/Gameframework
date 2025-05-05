@@ -2,7 +2,7 @@ using System.Reflection;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine.UIElements;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class PortView : Port
     {

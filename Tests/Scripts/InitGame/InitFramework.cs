@@ -16,8 +16,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
-using Yun.Util;
 using UnityEngine.SceneManagement;
+using YunFramework.RunTime.Utility;
 
 namespace Yun.Framework
 {

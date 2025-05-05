@@ -6,6 +6,8 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
+namespace LJVoyage.GameEditor{
+
 public class BuildExcelWindow : EditorWindow
 {
     [MenuItem("MyTools/打表窗口")]
@@ -141,3 +143,4 @@ public class BuildExcelWindow : EditorWindow
 }
 
 #endif
+}

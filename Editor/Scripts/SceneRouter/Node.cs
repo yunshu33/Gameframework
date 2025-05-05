@@ -2,7 +2,7 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor.SceneRouter
 {
     public class Node
     {

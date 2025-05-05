@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
     public class AnimalNodeManager : ScriptableObject
     {

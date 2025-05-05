@@ -24,7 +24,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using PopupWindow = UnityEngine.UIElements.PopupWindow;
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
     // IngredientDrawer
     [CustomPropertyDrawer(typeof(UIInfo))]

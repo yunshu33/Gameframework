@@ -6,6 +6,8 @@ using UnityEngine;
 using System.Text;
 using System.Linq;
 
+namespace LJVoyage.GameEditor{
+
 public class ExcelCodeCreater
 {
 
@@ -239,3 +241,4 @@ public class ExcelCodeCreater
 
 }
 #endif
+}

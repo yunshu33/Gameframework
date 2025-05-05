@@ -1,18 +1,14 @@
-﻿using YunFramework.Editor.YEditorGUI;
-using System.Linq;
+﻿using System.Linq;
 using UnityEditor.IMGUI.Controls;
 using UnityEngine;
-using System.Collections;
 using System.Collections.Generic;
-
-
 using UnityEditor;
-using System;
-namespace YunFramework.Editor.Table
+using LJVoyage.GameEditor.UI;
+
+namespace LJVoyage.GameEditor.Table
 {
     public class DataTableHeader : YEditorGUIBase
     {
-
         MultiColumnHeaderState multiColumnHeaderState;
 
         public MultiColumnHeader multiColumnHeader;
@@ -21,7 +17,6 @@ namespace YunFramework.Editor.Table
 
         public DataTableHeader(Rect rect, List<string> tableHeaders, GUIStyle style) : base(rect, style)
         {
-
             columns = new MultiColumnHeaderState.Column[tableHeaders.Count];
 
             for (int i = 0; i < tableHeaders.Count; i++)
@@ -38,7 +33,6 @@ namespace YunFramework.Editor.Table
                 };
 
                 columns[i] = column;
-
             }
 
             multiColumnHeaderState = new MultiColumnHeaderState(columns: columns);
@@ -55,22 +49,18 @@ namespace YunFramework.Editor.Table
 
 
             MinSize = new Vector2(columns.Sum((column) => column.minWidth), EditorGUIUtility.singleLineHeight);
-
         }
 
         public DataTableHeader(Rect rect, List<string> tableHeaders) : this(rect, tableHeaders, GUIStyle.none)
         {
-
-
         }
 
         public DataTableHeader(List<string> tableHeaders) : this(new Rect(), tableHeaders)
         {
-
         }
+
         public override Vector2 size
         {
-
             get => base.size;
 
             set
@@ -95,6 +85,7 @@ namespace YunFramework.Editor.Table
                 }
             }
         }
+
         public override float width
         {
             get => base.width;
@@ -113,10 +104,7 @@ namespace YunFramework.Editor.Table
 
         public override void OnGUI()
         {
-
             multiColumnHeader.OnGUI(m_rect, 0.0f);
-
         }
-
     }
 }

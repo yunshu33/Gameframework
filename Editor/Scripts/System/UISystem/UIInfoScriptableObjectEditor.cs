@@ -22,7 +22,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
     [CustomEditor(typeof(UIInfoScriptableObject))]
     public class UIInfoScriptableObjectEditor : UnityEditor.Editor

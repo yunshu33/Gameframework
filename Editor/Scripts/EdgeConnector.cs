@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class EdgeConnector<TEdge> : EdgeConnector where TEdge : Edge, new()
     {

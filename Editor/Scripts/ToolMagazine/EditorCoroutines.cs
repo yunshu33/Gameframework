@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using UnityEngine.Networking;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
 	public class EditorCoroutines
 	{

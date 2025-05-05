@@ -5,7 +5,7 @@
 // Script Name :		LearnA.cs
 // Author Name :		YunShu
 // Create Time :		2022/05/17 14:37:40
-// Description :           c# Ьиад
+// Description :           c# ????
 // **********************************************************************
 #endregion
 
@@ -15,7 +15,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yun.Framework
+namespace LJVoyage.Game.Test
 {
     public class LearnA : Attribute
     {

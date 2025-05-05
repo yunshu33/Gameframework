@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Yun.Framework;
 
-namespace Yun.Framework
+namespace LJVoyage.Game.Test
 {
     /// <summary>
     /// 场景 树结构  节点

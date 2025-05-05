@@ -5,7 +5,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
     public class Export : Editor
     {

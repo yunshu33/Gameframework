@@ -12,14 +12,14 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using LJVoyage.GameEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
 
-using Yun.Util;
 
-namespace Yun.Framework
+namespace LJVoyage.Game.Test
 {
    
     public class testLoadFile : MonoBehaviour

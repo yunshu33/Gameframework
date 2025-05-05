@@ -4,7 +4,7 @@ using UnityEditor.Callbacks;
 using UnityEngine.UIElements;
 using Yun.NodeGraphView.Runtime;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class GraphViewWindow : EditorWindow
     {

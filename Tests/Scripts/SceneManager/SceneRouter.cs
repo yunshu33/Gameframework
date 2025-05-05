@@ -1,8 +1,10 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
-using Yun.Util;
-namespace Yun.Framework
+using Yun.Framework;
+
+
+namespace LJVoyage.Game.Test
 {
     /// <summary>
     /// 场景路由

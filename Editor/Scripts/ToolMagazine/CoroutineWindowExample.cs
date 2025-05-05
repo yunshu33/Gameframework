@@ -3,11 +3,11 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine.Networking;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
 	public class CoroutineWindowExample : EditorWindow
 	{
-		[MenuItem("YunTools/Ð¯³ÌÀý×Ó")]
+		[MenuItem("YunTools/Ð¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½")]
 		public static void ShowWindow()
 		{
 			EditorWindow.GetWindow(typeof(CoroutineWindowExample));

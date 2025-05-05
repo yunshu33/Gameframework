@@ -13,9 +13,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Yun.Util;
+using YunFramework.RunTime.Utility;
 
-namespace Yun.Framework
+namespace LJVoyage.Game.Test
 {
     public class SceneRouterExample : MonoBehaviour
     {

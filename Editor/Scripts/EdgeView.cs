@@ -2,7 +2,7 @@ using System;
 using UnityEditor.Experimental.GraphView;
 using Yun.NodeGraphView.Runtime;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class EdgeView : Edge
     {

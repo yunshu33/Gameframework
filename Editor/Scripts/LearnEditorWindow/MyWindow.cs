@@ -7,7 +7,7 @@ using System.IO;
 using System.Data;
 using UnityEngine.Networking;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
     [Serializable]
     public class InformationNode

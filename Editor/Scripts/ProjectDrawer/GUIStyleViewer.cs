@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor.IMGUI.Controls;
 
-namespace YunFramework.Editor.YEditorGUI
+namespace LJVoyage.GameEditor.UI
 {
 
 

@@ -7,7 +7,7 @@ using YunFramework.RunTime.Utility.Serializable;
 using UnityEditor;
 using UnityEngine;
 
-namespace YunFramework.Editor
+namespace LJVoyage.GameEditor
 {
     public class GameWorldConfig
     {
@@ -18,7 +18,7 @@ namespace YunFramework.Editor
 
             var systemNames = new List<string>();
 
-            var type = typeof(RunTime.GameWorldConfig);
+            var type = typeof(GameWorldConfig);
 
             var assembly = type.Assembly;
 
@@ -30,7 +30,7 @@ namespace YunFramework.Editor
                 }
             }
 
-            var config = new RunTime.GameWorldConfig(systemNames);
+            var config = new GameWorldConfig();
 
             var str = XmlSerializable.Serializer(config);
 

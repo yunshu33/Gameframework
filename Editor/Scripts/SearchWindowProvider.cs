@@ -9,7 +9,7 @@ using UnityEngine.UIElements;
 using Yun.NodeGraphView.Runtime;
 using Yun.NodeGraphView.Runtime.Node;
 
-namespace Yun.NodeGraphView.Editor
+namespace LJVoyage.GameEditor
 {
     public class SearchWindowProvider : ScriptableObject, ISearchWindowProvider
     {

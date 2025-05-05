@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace YunFramework.Editor.Table
+namespace LJVoyage.GameEditor.Table
 {
     public class DataTable
     {

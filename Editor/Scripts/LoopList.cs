@@ -16,7 +16,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Util
+namespace LJVoyage.GameEditor
 {
 	/// <summary>
 	/// 游标数组/ 循环数组

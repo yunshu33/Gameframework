@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEditor;
 
-namespace Yun.Tools
+namespace LJVoyage.GameEditor
 {
 	public static class EditorCoroutineExtensions
 	{

@@ -17,7 +17,7 @@ using System.Threading;
 using UnityEditor;
 using UnityEngine;
 
-namespace Yun.Util
+namespace LJVoyage.GameEditor
 {
     /// <summary>
     /// 多线程 loom插件

@@ -1,10 +1,11 @@
-﻿using YunFramework.Editor.Table;
-using YunFramework.Editor.YEditorGUI;
+﻿
+
 using System.Collections.Generic;
+using LJVoyage.GameEditor.UI;
 using UnityEditor;
 using UnityEngine;
 
-namespace YunFramework.Editor.Table
+namespace LJVoyage.GameEditor.Table
 {
     public class DataTableBody : YEditorGUIBase
     {
