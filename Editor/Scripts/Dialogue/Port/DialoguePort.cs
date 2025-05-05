@@ -6,7 +6,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class DialoguePort : Port
     {

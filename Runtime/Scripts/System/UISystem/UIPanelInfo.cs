@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
     public class UIPanelInfo : MonoBehaviour
     {

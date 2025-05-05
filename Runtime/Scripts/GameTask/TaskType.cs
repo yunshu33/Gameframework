@@ -1,4 +1,4 @@
-﻿namespace YGameFramework.Runtime.Script.Task
+﻿namespace LJVoyage.Game.Tasks
 {
     public enum TaskType
     {

@@ -1,10 +1,9 @@
-using Unity.VisualScripting;
+using LJVoyage.Game.Manipulator;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Yun.UIElements.Runtime.Manipulator;
 
-namespace Yun.UIElements.Test
+namespace LJVoyage.Game.Editor
 {
     public class Drag : EditorWindow
     {
@@ -62,3 +61,4 @@ namespace Yun.UIElements.Test
         }
     }
 }
+

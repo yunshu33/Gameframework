@@ -16,17 +16,15 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-using UnityEditor;
-
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
-    [CreateAssetMenu(menuName = nameof(YunFramework) + "/" + nameof(UIInfoScriptableObject))]
+    [CreateAssetMenu(menuName = nameof(LJVoyage.Game) + "/" + nameof(UIInfoScriptableObject))]
     public class UIInfoScriptableObject : ScriptableObject
     {
         public List<UIInfo> m_Infos;
 
         public List<UIInfo> Infos => m_Infos;
-        
+
         private void GetUIPrefabsInfo()
         {
             if (m_Infos != null)
@@ -38,30 +36,30 @@ namespace YunFramework.RunTime
                 m_Infos = new List<UIInfo>();
             }
 
-            var guids = AssetDatabase.FindAssets("t:prefab");
-
-            foreach (var guid in guids)
-            {
-                var path = AssetDatabase.GUIDToAssetPath(guid);
-
-                var info = AssetDatabase.LoadAssetAtPath<UIPanelInfo>(AssetDatabase.GUIDToAssetPath(guid));
-
-                if (info != null)
-                {
-                    var bundleName = AssetDatabase.GetImplicitAssetBundleName(path);
-                    
-                    m_Infos.Add(new UIInfo() { path = path ,guid = guid,bundleName = bundleName});
-                    
-                }
-            }
+            // var guids = AssetDatabase.FindAssets("t:prefab");
+            //
+            // foreach (var guid in guids)
+            // {
+            //     var path = AssetDatabase.GUIDToAssetPath(guid);
+            //
+            //     var info = AssetDatabase.LoadAssetAtPath<UIPanelInfo>(AssetDatabase.GUIDToAssetPath(guid));
+            //
+            //     if (info != null)
+            //     {
+            //         var bundleName = AssetDatabase.GetImplicitAssetBundleName(path);
+            //         
+            //         m_Infos.Add(new UIInfo() { path = path ,guid = guid,bundleName = bundleName});
+            //         
+            //     }
+            // }
         }
 
         public void Reset()
         {
 #if UNITY_EDITOR
             GetUIPrefabsInfo();
-            EditorUtility.SetDirty(this);
-           
+            // EditorUtility.SetDirty(this);
+
 #endif
         }
     }

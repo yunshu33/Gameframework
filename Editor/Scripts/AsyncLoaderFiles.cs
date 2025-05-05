@@ -20,7 +20,7 @@ using System.IO;
 using System;
 using System.Runtime.CompilerServices;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     /// <summary>
     /// 异步加载文件
@@ -126,7 +126,7 @@ namespace LJVoyage.GameEditor
         {
             var tcs = new TaskCompletionSource<object>();
             asyncOp.completed += obj => { tcs.SetResult(null); };
-            return ((Task)tcs.Task).GetAwaiter();
+            return ((System.Threading.Tasks.Task)tcs.Task).GetAwaiter();
         }
     }
 

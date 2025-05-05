@@ -17,7 +17,7 @@ using System.Text;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class VerifyFileMD5 : EditorWindow
     {

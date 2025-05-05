@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneListData : NodeScriptableObjectBase
+namespace LJVoyage.Game
 {
-    public List<string> names= new List<string>();
-
-
+    public class SceneListData : NodeScriptableObjectBase
+    {
+        public List<string> names = new List<string>();
+    }
 }

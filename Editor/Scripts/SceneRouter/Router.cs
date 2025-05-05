@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor.SceneRouter
+namespace LJVoyage.Game.Editor.SceneRouter
 {
 
 

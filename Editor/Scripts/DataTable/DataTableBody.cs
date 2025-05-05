@@ -1,11 +1,11 @@
 ﻿
 
 using System.Collections.Generic;
-using LJVoyage.GameEditor.UI;
+using LJVoyage.Game.Editor.UI;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor.Table
+namespace LJVoyage.Game.Editor.Table
 {
     public class DataTableBody : YEditorGUIBase
     {

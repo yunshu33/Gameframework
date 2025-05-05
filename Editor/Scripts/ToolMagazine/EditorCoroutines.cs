@@ -6,7 +6,7 @@ using System;
 using System.Reflection;
 using UnityEngine.Networking;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
 	public class EditorCoroutines
 	{

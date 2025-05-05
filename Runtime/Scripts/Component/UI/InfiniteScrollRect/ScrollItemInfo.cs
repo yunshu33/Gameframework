@@ -1,9 +1,9 @@
 using System;
-using YunFramework.RunTime.Utility;
+using LJVoyage.Game.Utility;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace YunFramework.RunTime.Component.UI
+namespace LJVoyage.Game.UI
 {
 
     public class ScrollItemInfo : UIBehaviour

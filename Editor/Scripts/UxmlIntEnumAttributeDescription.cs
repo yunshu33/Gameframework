@@ -5,7 +5,7 @@ using System.Globalization;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Yun.UIElements
+namespace LJVoyage.Game
 {
     public class UxmlIntEnumAttributeDescription : TypedUxmlAttributeDescription<int>
     {

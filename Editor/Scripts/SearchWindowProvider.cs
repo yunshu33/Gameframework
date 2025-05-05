@@ -2,14 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
+using LJVoyage.Game.Node;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Yun.NodeGraphView.Runtime;
-using Yun.NodeGraphView.Runtime.Node;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class SearchWindowProvider : ScriptableObject, ISearchWindowProvider
     {

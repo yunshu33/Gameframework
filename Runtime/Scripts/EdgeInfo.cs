@@ -1,9 +1,8 @@
 using System;
 using UnityEngine;
 using UnityEngine.Serialization;
-using Yun.NodeGraphView.Runtime.Node;
 
-namespace Yun.NodeGraphView.Runtime
+namespace LJVoyage.Game
 {
     [Serializable]
     public class EdgeInfo

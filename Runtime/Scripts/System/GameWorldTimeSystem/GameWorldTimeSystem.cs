@@ -15,7 +15,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
     public class GameWorldTimeSystem : SystemBase
     {

@@ -14,7 +14,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yun.Framework
+namespace LJVoyage.Game
 {
     [CreateAssetMenu(fileName = "CreateAssetTest1", menuName = "CreateAssetTest")]
     public class CreateAsset : ScriptableObject

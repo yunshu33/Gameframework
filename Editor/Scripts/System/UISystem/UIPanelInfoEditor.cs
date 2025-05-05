@@ -13,11 +13,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
-using YunFramework.RunTime;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     [CustomEditor(typeof(UIPanelInfo))]
     public class UIPanelInfoEditor : UnityEditor.Editor

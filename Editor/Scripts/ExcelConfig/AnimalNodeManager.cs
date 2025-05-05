@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class AnimalNodeManager : ScriptableObject
     {

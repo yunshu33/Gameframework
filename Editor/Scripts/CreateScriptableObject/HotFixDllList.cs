@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor.Tools
+namespace LJVoyage.Game.Editor.Tools
 {
 	[CreateAssetMenu(fileName = "HotFixDllList", menuName = "CreateHotFixDllList")]
 	public class HotFixDllList : ScriptableObject

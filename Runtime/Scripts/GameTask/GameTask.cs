@@ -1,6 +1,6 @@
-﻿using YunFramework.RunTime;
+﻿
 
-namespace YGameFramework.Runtime.Script.Task
+namespace LJVoyage.Game.Tasks
 {
     public class GameTask : GameTaskBase
     {

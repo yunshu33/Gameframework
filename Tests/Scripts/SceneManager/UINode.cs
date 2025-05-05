@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace Yun.Framework
+namespace LJVoyage.Game
 {
     /// <summary>
     /// ui 树结构  节点

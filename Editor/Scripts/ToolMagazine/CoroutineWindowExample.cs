@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEditor;
 using UnityEngine.Networking;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
 	public class CoroutineWindowExample : EditorWindow
 	{

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
 
-namespace LJVoyage.GameEditor{
+namespace LJVoyage.Game.Editor{
 public class ExcelDataBase<T> : ScriptableObject where T : ExcelItemBase
 {
     public T[] items;

@@ -4,9 +4,9 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public class ExcelBuild : Editor
+    public class ExcelBuild : UnityEditor.Editor
     {
 
         [MenuItem("YunTools/Excel/ExcelToAsset")]

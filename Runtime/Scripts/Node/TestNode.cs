@@ -1,8 +1,8 @@
 ﻿
 
-namespace Yun.NodeGraphView.Runtime.Node
+namespace LJVoyage.Game.Node
 {
-    [Node(nodeName = nameof(TestNode),tag = nameof(Yun.NodeGraphView.Runtime))]
+    [Node(nodeName = nameof(TestNode),tag = nameof(LJVoyage.Game))]
     public class TestNode : NodeBase
     { 
         [In]

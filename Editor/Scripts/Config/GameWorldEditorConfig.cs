@@ -11,7 +11,7 @@
 
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     [CreateAssetMenu(fileName = "GameWorldEditorConfig", menuName ="GameWorld/EditorConfig")]
     public class GameWorldEditorConfig : ScriptableObject

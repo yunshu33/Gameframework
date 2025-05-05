@@ -1,11 +1,9 @@
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
+using LJVoyage.Game.Node;
 using UnityEngine.UIElements;
-using Yun.NodeGraphView.Runtime.Node;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public class NodeView : Node
+    public class NodeView : UnityEditor.Experimental.GraphView.Node
     {
         private readonly NodeBase node;
 

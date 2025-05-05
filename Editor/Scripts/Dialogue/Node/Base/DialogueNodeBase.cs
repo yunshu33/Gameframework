@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public abstract class DialogueNodeBase : Node, ISetData<NodeScriptableObjectBase>
+    public abstract class DialogueNodeBase : UnityEditor.Experimental.GraphView.Node, ISetData<NodeScriptableObjectBase>
     {
         public string guid;
 

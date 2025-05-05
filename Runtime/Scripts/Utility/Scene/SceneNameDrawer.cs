@@ -17,7 +17,7 @@ using System.Collections.Generic;
 
 #if UNITY_EDITOR
 using UnityEditor;
-namespace YunFramework.RunTime.Utility
+namespace LJVoyage.Game.Utility
 {
 
      [CustomPropertyDrawer(typeof(SceneNameAttribute))]

@@ -9,7 +9,7 @@ using System.Reflection;
 using System;
 using System.Data;
 
-namespace LJVoyage.GameEditor{
+namespace LJVoyage.Game.Editor{
 
 //Excel中间数据
 public class ExcelMediumData

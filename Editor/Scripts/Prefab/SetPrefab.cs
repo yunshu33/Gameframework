@@ -18,9 +18,9 @@ using UnityEditor;
 using UnityEditor.SceneManagement;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public class SetPrefab : Editor
+    public class SetPrefab : UnityEditor.Editor
     {
         [MenuItem("Assets/YunTools/Prefab/为选中的预制体添加一个子预制体")]
         [MenuItem("YunTools/Prefab/为选中的预制体添加一个子预制体")]

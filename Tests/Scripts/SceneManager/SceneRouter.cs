@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEditor;
-using Yun.Framework;
 
 
 namespace LJVoyage.Game.Test

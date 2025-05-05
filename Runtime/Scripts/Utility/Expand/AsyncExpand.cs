@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace YunFramework.RunTime.Utility { 
+namespace LJVoyage.Game.Utility { 
 /// <summary>
 /// 异步拓展
 /// </summary>
@@ -32,7 +32,7 @@ public static class AsyncExpand
     {
         var tcs = new TaskCompletionSource<object>();
         asyncOp.completed += obj => { tcs.SetResult(null); };
-        return ((Task)tcs.Task).GetAwaiter();
+        return ((System.Threading.Tasks.Task)tcs.Task).GetAwaiter();
     }
 }
 }

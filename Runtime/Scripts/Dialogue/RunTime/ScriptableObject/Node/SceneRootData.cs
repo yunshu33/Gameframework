@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SceneRootData : NodeScriptableObjectBase
+namespace LJVoyage.Game
 {
-    
+    public class SceneRootData : NodeScriptableObjectBase
+    {
+        
+    }
 }

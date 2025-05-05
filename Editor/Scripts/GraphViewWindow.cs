@@ -2,9 +2,8 @@
 using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine.UIElements;
-using Yun.NodeGraphView.Runtime;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class GraphViewWindow : EditorWindow
     {

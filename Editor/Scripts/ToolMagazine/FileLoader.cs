@@ -18,7 +18,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.Networking;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public static class FileLoader
     {

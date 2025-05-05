@@ -6,7 +6,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     [IsDialogueNode("场景/场景根节点")]
     public class SceneRootNode : DialogueNodeBase, ISetData<SceneRootData>

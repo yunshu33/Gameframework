@@ -12,13 +12,13 @@
 
 using System;
 using System.Collections.Generic;
-using LJVoyage.GameEditor.Tools;
+using LJVoyage.Game.Editor.Tools;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-	public class ReadAsset : Editor
+	public class ReadAsset : UnityEditor.Editor
 	{
         [MenuItem("YunTools/ReadScriptableObject")]
         private static void ReadAssetObject()

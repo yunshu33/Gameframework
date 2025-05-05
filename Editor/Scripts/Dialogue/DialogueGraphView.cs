@@ -11,7 +11,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class DialogueGraphView : GraphView
     {
@@ -100,7 +100,7 @@ namespace LJVoyage.GameEditor
         {
             foreach (var item in nodes.ToList())
             {
-                var node = (DialogueNodeBase)item;
+                var node = item as DialogueNodeBase;
 
                 var data = node.SaveData();
 

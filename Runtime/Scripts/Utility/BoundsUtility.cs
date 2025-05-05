@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace YunFramework.RunTime.Utility
+namespace LJVoyage.Game.Utility
 {
     public static class BoundsUtility
     {

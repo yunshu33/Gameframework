@@ -15,9 +15,9 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public class UnloadYun : Editor
+    public class UnloadYun : UnityEditor.Editor
 	{
         /// <summary>
         /// 卸载YunTools

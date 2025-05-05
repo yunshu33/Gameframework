@@ -10,7 +10,7 @@ using UnityEditor.Rendering;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     /// <summary>
     /// 打包附加操作

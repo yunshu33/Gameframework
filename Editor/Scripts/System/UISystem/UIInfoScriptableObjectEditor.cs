@@ -16,13 +16,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using YunFramework.RunTime;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     [CustomEditor(typeof(UIInfoScriptableObject))]
     public class UIInfoScriptableObjectEditor : UnityEditor.Editor

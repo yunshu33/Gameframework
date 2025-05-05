@@ -1,13 +1,11 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-    public class Export : Editor
+    public class Export :UnityEditor.Editor
     {
         /// <summary>
         /// 导出工具包

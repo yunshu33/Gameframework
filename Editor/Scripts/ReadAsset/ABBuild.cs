@@ -14,9 +14,9 @@ using System;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
-	public class ABBuild : Editor
+	public class ABBuild : UnityEditor.Editor
 	{
         [MenuItem("YunTools/ABBuild")]
         private static void DefaultTool()

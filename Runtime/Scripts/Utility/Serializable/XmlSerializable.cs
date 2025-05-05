@@ -4,7 +4,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace YunFramework.RunTime.Utility.Serializable
+namespace YLJVoyage.Game.Utility.Serializable
 {
     public static class XmlSerializable
     {

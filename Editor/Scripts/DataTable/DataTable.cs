@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEditor;
 using System;
 
-namespace LJVoyage.GameEditor.Table
+namespace LJVoyage.Game.Editor.Table
 {
     public class DataTable
     {

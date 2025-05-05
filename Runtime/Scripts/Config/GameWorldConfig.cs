@@ -12,9 +12,8 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
-using YGameFramework.Runtime.Script.Config;
 
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
     public class GameWorldConfig : IXmlSerializable
     {

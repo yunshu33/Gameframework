@@ -14,7 +14,7 @@
 
 using UnityEngine;
 
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
     public abstract class SystemBase : MonoBehaviour, ISystem
     {

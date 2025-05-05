@@ -1,16 +1,14 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
+using LJVoyage.Game.Node;
+using Unity.Plastic.Newtonsoft.Json;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Yun.NodeGraphView.Runtime;
-using Yun.NodeGraphView.Runtime.Node;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class NodeGraph : GraphView
     {
@@ -360,7 +358,7 @@ namespace LJVoyage.GameEditor
             return CreateNode(type.Name, position);
         }
 
-        private Node CreateOutPort(Node node, Type type)
+        private NodeView CreateOutPort(NodeView node, Type type)
         {
             foreach (var fieldInfo in type.GetFields())
             {
@@ -379,7 +377,7 @@ namespace LJVoyage.GameEditor
             return node;
         }
 
-        private Node CreateInPort(Node node, Type type)
+        private NodeView CreateInPort(NodeView node, Type type)
         {
             foreach (var fieldInfo in type.GetFields())
             {

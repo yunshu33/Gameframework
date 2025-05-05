@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using YunFramework.RunTime;
 using UnityEngine.Events;
 
-namespace YGameFramework.Runtime.Script.Task
+namespace LJVoyage.Game.Tasks
 {
     public abstract class GameTaskBase
     {

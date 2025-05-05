@@ -1,6 +1,6 @@
 ﻿
 
-namespace YunFramework.RunTime.MVVM
+namespace LJVoyage.Game.MVVM
 {
     public abstract class ViewBase
     {

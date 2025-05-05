@@ -1,8 +1,7 @@
 using System;
 using UnityEditor.Experimental.GraphView;
-using Yun.NodeGraphView.Runtime;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public class EdgeView : Edge
     {

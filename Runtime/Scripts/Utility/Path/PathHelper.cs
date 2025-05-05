@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 
-namespace YunFramework.RunTime.Utility
+namespace LJVoyage.Game.Utility
 {
     public static class PathHelper
     {

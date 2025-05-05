@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
-namespace YunFramework.RunTime.Utility
+namespace LJVoyage.Game.Utility
 {
     public static class MathHelper
     {

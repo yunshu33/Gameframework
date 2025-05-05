@@ -21,7 +21,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     public static class CreateScript
     {

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace YunFramework.RunTime.Component.UI
+namespace LJVoyage.Game.UI
 {
     [RequireComponent(typeof(ScrollRect))]
     public class ScrollView : UIBehaviour

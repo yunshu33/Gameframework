@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DialogueAndSelectData : NodeScriptableObjectBase
+namespace LJVoyage.Game
 {
 
+
+    public class DialogueAndSelectData : NodeScriptableObjectBase
+    {
+
+    }
 }

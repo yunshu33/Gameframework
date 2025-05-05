@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Yun.UIElements.Runtime
+namespace LJVoyage.Game
 {
     public class VernierIMGUI : VisualElement
     {

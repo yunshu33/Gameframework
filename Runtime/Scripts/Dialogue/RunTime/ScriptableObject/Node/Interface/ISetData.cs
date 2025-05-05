@@ -2,7 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public interface ISetData<out T> where T : NodeScriptableObjectBase
+namespace LJVoyage.Game
 {
-     NodeScriptableObjectBase Data { get; set; }
+
+
+     public interface ISetData<out T> where T : NodeScriptableObjectBase
+     {
+          NodeScriptableObjectBase Data { get; set; }
+     }
 }

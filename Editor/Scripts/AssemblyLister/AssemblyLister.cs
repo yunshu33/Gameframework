@@ -15,7 +15,7 @@ using UnityEditor;
 using UnityEditor.Compilation;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor.Tools
+namespace LJVoyage.Game.Editor.Tools
 {
     public static class AssemblyLister
     {

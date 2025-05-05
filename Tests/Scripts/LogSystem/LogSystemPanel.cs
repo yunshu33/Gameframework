@@ -12,15 +12,13 @@
 
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
+
 using UnityEngine;
 using UnityEngine.UI;
-namespace Yun.Framework
+namespace LJVoyage.Game
 {
     public class LogSystemPanel : MonoBehaviour
     {
-        public TextMeshProUGUI type;
-        public TextMeshProUGUI stackTrace;
-        public TextMeshProUGUI condition;
+        
     }
 }

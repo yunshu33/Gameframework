@@ -1,8 +1,7 @@
 ﻿using System;
-using YunFramework.RunTime;
 using UnityEngine;
 
-namespace YGameFramework.Runtime.Script.Task.TaskNode
+namespace LJVoyage.Game.Tasks
 {
     public class NoneTaskNode : IGameTaskNode
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 // ReSharper disable ClassWithVirtualMembersNeverInherited.Global
 
-namespace YunFramework.RunTime.MVVM
+namespace LJVoyage.Game.MVVM
 {
 
     /// <summary>

@@ -17,14 +17,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using YunFramework.RunTime;
 using UnityEditor;
 using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 using PopupWindow = UnityEngine.UIElements.PopupWindow;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     // IngredientDrawer
     [CustomPropertyDrawer(typeof(UIInfo))]

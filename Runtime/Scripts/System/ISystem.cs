@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace YunFramework.RunTime
+namespace LJVoyage.Game
 {
     public interface ISystem
     {

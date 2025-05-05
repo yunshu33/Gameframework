@@ -1,7 +1,6 @@
 ﻿using System;
-using YunFramework.RunTime;
 
-namespace YGameFramework.Runtime.Script.Task
+namespace LJVoyage.Game.Tasks
 {
     public  interface IGameTaskNode
     {

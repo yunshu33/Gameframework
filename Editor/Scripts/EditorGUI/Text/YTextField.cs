@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor.UI
+namespace LJVoyage.Game.Editor.UI
 {
     public class YTextField : YLabel
     {

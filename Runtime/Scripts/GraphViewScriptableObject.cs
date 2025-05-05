@@ -1,10 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using LJVoyage.Game.Node;
 using UnityEngine;
-using UnityEngine.Serialization;
-using Yun.NodeGraphView.Runtime.Node;
 
-namespace Yun.NodeGraphView.Runtime
+namespace LJVoyage.Game
 {
     [CreateAssetMenu(menuName = "Y/GraphView/ScriptableObject")]
     

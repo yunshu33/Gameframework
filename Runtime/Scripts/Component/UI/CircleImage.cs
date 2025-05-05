@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.Sprites;
 using UnityEngine.UI;
 
-namespace YunFramework.RunTime.Component.UI
+namespace LJVoyage.Game.UI
 {
     public class CircleImage : Image
     {

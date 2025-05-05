@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using YunFramework.RunTime.Utility;
+using LJVoyage.Game.Utility;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace YunFramework.RunTime.Component.UI
+namespace  LJVoyage.Game.UI
 {
     public class InfiniteScrollRect : ScrollRect
     {

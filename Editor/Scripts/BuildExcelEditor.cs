@@ -6,7 +6,7 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LJVoyage.GameEditor{
+namespace LJVoyage.Game.Editor{
 
 public class BuildExcelWindow : EditorWindow
 {

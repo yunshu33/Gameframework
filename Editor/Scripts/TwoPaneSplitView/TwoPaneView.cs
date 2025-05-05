@@ -1,9 +1,9 @@
 using System;
+using LJVoyage.Game.Manipulator;
 using UnityEngine;
 using UnityEngine.UIElements;
-using Yun.UIElements.Runtime.Manipulator;
 
-namespace Yun.UIElements.Runtime
+namespace LJVoyage.Game
 {
     public class TwoPaneView : VisualElement
     {

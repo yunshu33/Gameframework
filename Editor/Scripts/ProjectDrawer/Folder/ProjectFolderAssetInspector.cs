@@ -3,7 +3,7 @@ using UnityEditor;
 using System.Collections.Generic;
 using UnityEngine.WSA;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
 
     [CanEditMultipleObjects, CustomEditor(typeof(DefaultAsset))]

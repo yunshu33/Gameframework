@@ -1,6 +1,6 @@
 using System;
 
-namespace YunFramework.RunTime.Module
+namespace LJVoyage.Game
 {
     /// <summary>
     /// 单例

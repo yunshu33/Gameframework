@@ -3,9 +3,9 @@ using UnityEditor.IMGUI.Controls;
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor;
-using LJVoyage.GameEditor.UI;
+using LJVoyage.Game.Editor.UI;
 
-namespace LJVoyage.GameEditor.Table
+namespace LJVoyage.Game.Editor.Table
 {
     public class DataTableHeader : YEditorGUIBase
     {

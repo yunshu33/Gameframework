@@ -1,8 +1,7 @@
 ﻿using System;
-using Newtonsoft.Json.Serialization;
 using UnityEngine;
 
-namespace Yun.NodeGraphView.Runtime.Node
+namespace LJVoyage.Game.Node
 {
     [Serializable]
     public class NodeBase : ScriptableObject, ICloneable

@@ -16,7 +16,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     /// <summary>
     /// 工具集

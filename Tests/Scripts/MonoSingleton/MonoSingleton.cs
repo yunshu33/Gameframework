@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace Yun.Framework
+namespace LJVoyage.Game
 {
 
     /// <summary>

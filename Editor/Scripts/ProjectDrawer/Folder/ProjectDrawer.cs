@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
     [InitializeOnLoad]
     public static class ProjectDrawer

@@ -15,12 +15,13 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
 	/// <summary>
 	/// 场景名称属性
 	/// </summary>
     public class SceneNameAttribute  : PropertyAttribute
 	{
+		
 	}
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEditor.IMGUI.Controls;
 
-namespace LJVoyage.GameEditor.UI
+namespace LJVoyage.Game.Editor.UI
 {
 
 

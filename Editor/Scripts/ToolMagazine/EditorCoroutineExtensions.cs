@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEditor;
 
-namespace LJVoyage.GameEditor
+namespace LJVoyage.Game.Editor
 {
 	public static class EditorCoroutineExtensions
 	{

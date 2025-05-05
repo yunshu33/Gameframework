@@ -1,6 +1,6 @@
 using System;
 
-namespace Yun.NodeGraphView.Runtime
+namespace LJVoyage.Game
 {
     public class NodeAttribute : Attribute
     {

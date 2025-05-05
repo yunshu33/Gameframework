@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Yun.UIElements.Runtime
+namespace LJVoyage.Game
 {
     public enum E_Orientation
     {
