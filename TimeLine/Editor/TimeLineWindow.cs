@@ -1,0 +1,45 @@
+using System.Collections.Generic;
+using UnityEditor;
+using UnityEngine;
+using UnityEngine.UIElements;
+using Yun.UIElements.Runtime;
+
+namespace Yun.TimeLine
+{
+    public class TimeLineWindow : EditorWindow
+    {
+        [MenuItem("Yun/TimeLineWindow")]
+        public static void ShowExample()
+        {
+            var wnd = GetWindow<TimeLineWindow>();
+            wnd.titleContent = new GUIContent("TimeLine");
+        }
+
+        private List<GroupTrack> groupTracks = new ();
+
+        private VisualElement trackHeadPanel;
+
+        private VisualElement trackBodyPanel;
+
+
+        private TwoPaneView paneView;
+
+        public void CreateGUI()
+        {
+            var root = rootVisualElement;
+
+            paneView = new TwoPaneView
+            {
+                Orientation = E_Orientation.Horizontal,
+            };
+
+            root.Add(paneView);
+        }
+
+
+        private void AddTrack(GroupTrack track)
+        {
+           
+        }
+    }
+}

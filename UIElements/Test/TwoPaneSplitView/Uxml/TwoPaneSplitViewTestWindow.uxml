@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" yun="Yun.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Yun/UIElements/Test/TwoPaneSplitView/Uss/TwoPaneSplitViewTestWindow.uss?fileID=7433441132597879392&amp;guid=93d9a0f20829e8b4c8d66f66228e5f22&amp;type=3#TwoPaneSplitViewTestWindow" />
+    <Yun.UIElements.TwoPaneSplitView fixed-pane-index="0" fixed-pane-initial-size="200" orientation="horizontal">
+        <ui:VisualElement name="red" class="red" />
+        <ui:VisualElement name="green" class="green" />
+    </Yun.UIElements.TwoPaneSplitView>
+</ui:UXML>
