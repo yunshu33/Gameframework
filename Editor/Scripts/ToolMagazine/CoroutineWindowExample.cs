@@ -7,7 +7,7 @@ namespace LJVoyage.Game.Editor
 {
 	public class CoroutineWindowExample : EditorWindow
 	{
-		[MenuItem("YunTools/Я������")]
+		[MenuItem("LJVoyage/CoroutineWindow")]
 		public static void ShowWindow()
 		{
 			EditorWindow.GetWindow(typeof(CoroutineWindowExample));

@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Editor
 {
     class TwoPaneSplitViewTestWindow : EditorWindow
     {

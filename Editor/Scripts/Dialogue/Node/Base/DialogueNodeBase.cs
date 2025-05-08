@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public abstract class DialogueNodeBase : UnityEditor.Experimental.GraphView.Node, ISetData<NodeScriptableObjectBase>
     {

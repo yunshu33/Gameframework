@@ -2,7 +2,7 @@
 using UnityEditor;
 using System.Collections.Generic;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public class ParentScriptableObject : ScriptableObject
     {

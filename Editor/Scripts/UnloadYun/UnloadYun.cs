@@ -22,7 +22,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 卸载YunTools
         /// </summary>
-        [MenuItem("YunTools/UnloadYun/UnloadYunTools")]
+        [MenuItem("LJVoyage/UnloadYun/UnloadYunTools")]
         private static void UnloadYunTools()
         {
             UnloadFile("Assets/YunTools");
@@ -31,7 +31,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 卸载YunFarmework
         /// </summary>
-        [MenuItem("YunTools/UnloadYun/UnloadYunFarmework")]
+        [MenuItem("LJVoyage/UnloadYun/UnloadYunFarmework")]
         private static void UnloadYunFarmework()
         {
             UnloadFile("Assets/YunFramework");
@@ -40,7 +40,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 卸载  CompleteYun 
         /// </summary>
-        [MenuItem("YunTools/UnloadYun/UnloadCompleteYun")]
+        [MenuItem("LJVoyage/UnloadYun/UnloadCompleteYun")]
         private static void UnloadCompleteYun()
         {
             UnloadYunFarmework();

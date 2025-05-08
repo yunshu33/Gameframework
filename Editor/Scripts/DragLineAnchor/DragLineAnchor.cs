@@ -1,10 +1,9 @@
 using System;
-using LJVoyage.Game.Manipulator;
 using UnityEngine;
 using UnityEngine.UIElements;
 using Cursor = UnityEngine.UIElements.Cursor;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Editor
 {
     public class DragLineAnchor : VisualElement
     {

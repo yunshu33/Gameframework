@@ -2,7 +2,7 @@
 using System;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public class BehaviourWithTree : MonoBehaviour, ISerializationCallbackReceiver
     {

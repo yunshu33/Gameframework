@@ -21,7 +21,7 @@ namespace LJVoyage.Game.Editor
 {
     public class VerifyFileMD5 : EditorWindow
     {
-        [MenuItem("YunTools/Test/VerifyFileMD5")]
+        [MenuItem("LJVoyage/Test/VerifyFileMD5")]
         static void Init()
         {
             

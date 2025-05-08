@@ -6,9 +6,7 @@ namespace LJVoyage.Game.Editor.UI
 {
     public abstract class YEditorGUIBase
     {
-
-
-        public YEditorGUIBase(Rect rect, GUIStyle style)
+        protected YEditorGUIBase(Rect rect, GUIStyle style)
         {
             m_Style = style;
             m_rect = rect;

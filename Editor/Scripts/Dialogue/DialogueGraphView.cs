@@ -11,7 +11,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public class DialogueGraphView : GraphView
     {

@@ -22,8 +22,8 @@ namespace LJVoyage.Game.Editor
 {
     public class SetPrefab : UnityEditor.Editor
     {
-        [MenuItem("Assets/YunTools/Prefab/为选中的预制体添加一个子预制体")]
-        [MenuItem("YunTools/Prefab/为选中的预制体添加一个子预制体")]
+        [MenuItem("Assets/LJVoyage/Prefab/为选中的预制体添加一个子预制体")]
+        [MenuItem("LJVoyage/Prefab/为选中的预制体添加一个子预制体")]
         static void DefaultTool()
         {
 
@@ -48,9 +48,9 @@ namespace LJVoyage.Game.Editor
             EditorSceneManager.CloseScene(scene, true);
 
         }
-        [MenuItem("Assets/YunTools/Prefab/测试api",true)]
-        [MenuItem("Assets/YunTools/Prefab/为选中的预制体添加一个子预制体", true)]
-        [MenuItem("YunTools/Default/为选中的预制体添加一个子预制体", true)]
+        [MenuItem("Assets/LJVoyage/Prefab/测试api",true)]
+        [MenuItem("Assets/LJVoyage/Prefab/为选中的预制体添加一个子预制体", true)]
+        [MenuItem("LJVoyage/Prefab/为选中的预制体添加一个子预制体", true)]
         static bool CheckDefaultTool()
         {
             if (PrefabUtility.IsPartOfPrefabAsset(Selection.activeObject))
@@ -65,7 +65,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 测试api
         /// </summary>
-         [MenuItem("Assets/YunTools/Prefab/测试api")]
+         [MenuItem("Assets/LJVoyage/Prefab/测试api")]
         static void TestApi() {
 
             var  path = AssetDatabase.GUIDToAssetPath(Selection.assetGUIDs[0]);

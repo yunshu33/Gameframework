@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Editor
 {
     /// <summary>
     /// 游标

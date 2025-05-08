@@ -1,5 +1,5 @@
 ﻿
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public class AScriptableObject : ChildScriptableObject
     {

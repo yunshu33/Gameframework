@@ -50,7 +50,7 @@ namespace LJVoyage.Game.Editor
             );
         }
 
-        [MenuItem("Assets/Create/GameWorld Script/Mvvm Script", false, 80)]
+        [MenuItem("Assets/Create/LJVoyage/Game Script/Mvvm Script", false, 80)]
         static void CreateMvvmScript()
         {
             string[] guids = AssetDatabase.FindAssets("NewViewModelScriptTemplate.cs");

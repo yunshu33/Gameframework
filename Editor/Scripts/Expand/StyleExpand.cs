@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Expand
+namespace LJVoyage.Game.Editor.Expand
 {
     public static class StyleExpand
     {

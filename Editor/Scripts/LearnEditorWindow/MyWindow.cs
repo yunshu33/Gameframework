@@ -48,7 +48,7 @@ namespace LJVoyage.Game.Editor
         private SerializedProperty serializedSpriteList;
 
 
-        [MenuItem("YunTools/MyWindow")]
+        [MenuItem("LJVoyage/MyWindow")]
         static void Init()
         {
             // Get existing open window or if none, make a new one:

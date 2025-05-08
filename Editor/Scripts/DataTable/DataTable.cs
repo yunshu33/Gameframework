@@ -41,7 +41,7 @@ namespace LJVoyage.Game.Editor.Table
             // 头部宽度 与窗口宽度一致  头部有最小宽度
             header.width = window.position.width;
 
-            ///跟随 滚动条偏移
+            //跟随 滚动条偏移
             header.x = - body.ScrollPosition.x;
 
             header.OnGUI();

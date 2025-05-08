@@ -18,7 +18,7 @@ namespace LJVoyage.Game.Editor
 {
 	public class ABBuild : UnityEditor.Editor
 	{
-        [MenuItem("YunTools/ABBuild")]
+        [MenuItem("LJVoyage/AB/ABBuild")]
         private static void DefaultTool()
         {
 

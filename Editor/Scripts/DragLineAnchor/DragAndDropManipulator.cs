@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Manipulator
+namespace LJVoyage.Game.Editor
 {
     public class DragAndDropManipulator : PointerManipulator
     {

@@ -1,4 +1,4 @@
-using LJVoyage.Game.Manipulator;
+
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
@@ -7,7 +7,7 @@ namespace LJVoyage.Game.Editor
 {
     public class Drag : EditorWindow
     {
-        [MenuItem("Yun/UIElements/Drag")]
+        [MenuItem("LJVoyage/UIElements/Drag")]
         public static void ShowExample()
         {
             var wnd = GetWindow<Drag>();

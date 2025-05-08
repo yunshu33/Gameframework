@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Manipulator
+namespace LJVoyage.Game.Editor
 {
     public class SquareResizer : MouseManipulator
     {

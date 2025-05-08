@@ -10,7 +10,7 @@ using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     [IsDialogueNode("对话/内容和选择")]
     public class DialogueAndSelectNode : DialogueNodeBase, ISetData<DialogueAndSelectData>

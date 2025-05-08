@@ -7,7 +7,7 @@ using UnityEngine;
 
 
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
 
     [IsDialogueNode("场景/场景列表")]

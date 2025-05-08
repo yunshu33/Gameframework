@@ -10,7 +10,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 导出工具包
         /// </summary>
-        [MenuItem("YunTools/Export/ExportTools")]
+        [MenuItem("LJVoyage/Export/ExportTools")]
         private static void ExportTools()
         {
             string name = "YunTools-" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm") + ".unitypackage";
@@ -21,12 +21,10 @@ namespace LJVoyage.Game.Editor
             Application.OpenURL("file://" + pathName);
         }
 
-
-
         /// <summary>
         /// 导出框架包
         /// </summary>
-        [MenuItem("YunTools/Export/ExportFramework")]
+        [MenuItem("LJVoyage/Export/ExportFramework")]
         private static void ExportFarmework()
         {
             string name = "YunFramework-" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm") + ".unitypackage";
@@ -40,7 +38,7 @@ namespace LJVoyage.Game.Editor
         /// <summary>
         /// 导出tools framework plugins 完整的Yun
         /// </summary>
-        [MenuItem("YunTools/Export/ExportCompleteYun")]
+        [MenuItem("LJVoyage/Export/ExportCompleteYun")]
         private static void ExportCompleteYun()
         {
             string name = "CompleteYun-" + DateTime.Now.ToString("yyyy-MM-dd-HH-mm") + ".unitypackage";

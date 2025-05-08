@@ -10,7 +10,7 @@ namespace LJVoyage.Game.Editor.UI
 
     public class GUIStyleViewer : EditorWindow
     {
-        [MenuItem("GameWorld/GUIStyl查看器", false, 100)]
+        [MenuItem("LJVoyage/GUIStyl查看器", false, 100)]
         public static void ShowWindow()
         {
             GUIStyleViewer w = (GUIStyleViewer)EditorWindow.GetWindow<GUIStyleViewer>();

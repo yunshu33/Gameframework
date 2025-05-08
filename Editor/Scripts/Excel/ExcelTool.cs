@@ -6,7 +6,7 @@ using System.IO;
 using System.Reflection;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Excel
 {
     public class ExcelTool : MonoBehaviour
     {

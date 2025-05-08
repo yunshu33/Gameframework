@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Excel
 {
     public class ExcelConfig : MonoBehaviour
     {

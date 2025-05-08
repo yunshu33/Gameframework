@@ -10,7 +10,7 @@ namespace LJVoyage.Game.Editor
 {
     public class GameWorldConfig
     {
-        [MenuItem("Assets/Create/GameWorld/Config")]
+        [MenuItem("Assets/Create/LJVoyage/Game/Config")]
         public static void CreateGameWorldConfig()
         {
             var path = AssetDatabase.GUIDToAssetPath(Selection.assetGUIDs.FirstOrDefault());
@@ -33,7 +33,7 @@ namespace LJVoyage.Game.Editor
 
             var str = XmlSerializable.Serializer(config);
 
-            using var stream = new FileStream(path + @"\GameWorldConfig.txt", FileMode.OpenOrCreate,
+            using var stream = new FileStream(path + @"\GameConfig.txt", FileMode.OpenOrCreate,
                 FileAccess.ReadWrite);
             var bytes = Encoding.UTF8.GetBytes(str);
 

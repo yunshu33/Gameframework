@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Excel
 {
     [System.Serializable]
     public class AnimalNodeList

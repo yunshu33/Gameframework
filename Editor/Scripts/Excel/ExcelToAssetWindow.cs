@@ -5,7 +5,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Data;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Excel
 {
     public class ExcelToAssetWindow : EditorWindow
     {

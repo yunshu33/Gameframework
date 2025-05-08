@@ -1,7 +1,7 @@
 ﻿
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
 
     public class ChildScriptableObject : ScriptableObject

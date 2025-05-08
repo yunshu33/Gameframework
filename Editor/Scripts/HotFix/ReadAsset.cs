@@ -2,7 +2,7 @@
 // **********************************************************************
 // Copyright (C) 2022 HeJing
 //
-// Script Name :		ReadAsset.cs
+// Script Name :		AssetBundle.cs
 // Author Name :		YunShu
 // Create Time :		2022/07/26 11:37:54
 // Description :
@@ -16,7 +16,7 @@ using LJVoyage.Game.Editor.Tools;
 using UnityEditor;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.HotFix
 {
 	public class ReadAsset : UnityEditor.Editor
 	{

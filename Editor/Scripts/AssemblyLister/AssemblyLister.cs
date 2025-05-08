@@ -19,7 +19,7 @@ namespace LJVoyage.Game.Editor.Tools
 {
     public static class AssemblyLister
     {
-        [MenuItem("YunTools/List Player Assemblies in Console")]
+        [MenuItem("LJVoyage/Tools/List Player Assemblies in Console")]
         public static void PrintAssemblyNames()
         {
             UnityEngine.Debug.Log("== Player Assemblies ==");

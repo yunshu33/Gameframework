@@ -4,7 +4,7 @@ using System.IO;
 using System.Linq;
 using UnityEditor;
 using UnityEngine;
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Excel
 {
     public class ExcelBuild : UnityEditor.Editor
     {

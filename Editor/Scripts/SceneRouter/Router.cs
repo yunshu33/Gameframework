@@ -47,7 +47,7 @@ namespace LJVoyage.Game.Editor.SceneRouter
         /// </summary>
         private Vector2 drag;
 
-        [MenuItem("YunTools/SceneRouter")]
+        [MenuItem("LJVoyage/SceneRouter")]
         private static void DefaultTool()
         {
             

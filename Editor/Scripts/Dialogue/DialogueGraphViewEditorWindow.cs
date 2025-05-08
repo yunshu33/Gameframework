@@ -6,7 +6,7 @@ using UnityEditor.Callbacks;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Dialogue
 {
     public class DialogueGraphViewEditorWindow : EditorWindow
     {
@@ -18,7 +18,7 @@ namespace LJVoyage.Game.Editor
         DialogueGraphViewData data;
 
 
-        // [MenuItem("Window/对话编辑器")]
+         [MenuItem("LJVoyage/对话编辑器")]
         static void Init()
         {
             instance = GetWindow<DialogueGraphViewEditorWindow>();

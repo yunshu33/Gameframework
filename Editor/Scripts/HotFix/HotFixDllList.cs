@@ -15,9 +15,9 @@ using System.Collections.Generic;
 using UnityEditorInternal;
 using UnityEngine;
 
-namespace LJVoyage.Game.Editor.Tools
+namespace LJVoyage.Game.Editor.HotFix
 {
-	[CreateAssetMenu(fileName = "HotFixDllList", menuName = "CreateHotFixDllList")]
+	[CreateAssetMenu(fileName = "HotFixDllList", menuName = "LJVoyage/Create/HotFixDllList")]
 	public class HotFixDllList : ScriptableObject
 	{
 		[Header("热更新dll列表")]

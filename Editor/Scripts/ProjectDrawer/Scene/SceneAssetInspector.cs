@@ -10,9 +10,6 @@ namespace LJVoyage.Game.Editor
     [CanEditMultipleObjects, CustomEditor(typeof(SceneAsset))]
     public class SceneAssetInspector : UnityEditor.Editor
     {
-
-       
-
         string path;
 
         AssetImporter assetImporter;
@@ -25,8 +22,6 @@ namespace LJVoyage.Game.Editor
             }
 
             assetImporter = AssetImporter.GetAtPath(path);
-
-            
 
             
         }
