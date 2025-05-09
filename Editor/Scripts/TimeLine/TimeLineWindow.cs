@@ -1,15 +1,16 @@
 using System.Collections.Generic;
 using LJVoyage.Game;
 using LJVoyage.Game.Editor;
+using LJVoyage.Game.Runtime.TimeLine;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Yun.TimeLine
+namespace LJVoyage.Game.Editor.TimeLine
 {
     public class TimeLineWindow : EditorWindow
     {
-        [MenuItem("Yun/TimeLineWindow")]
+        [MenuItem("LJVoyage/TimeLineWindow")]
         public static void ShowExample()
         {
             var wnd = GetWindow<TimeLineWindow>();

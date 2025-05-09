@@ -1,10 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
-using LJVoyage.Game.Utility;
+using LJVoyage.Game.Runtime.Utility;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace  LJVoyage.Game.UI
+namespace  LJVoyage.Game.Runtime.UI
 {
     public class InfiniteScrollRect : ScrollRect
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 
-namespace LJVoyage.Game.MVVM
+namespace LJVoyage.Game.Runtime.MVVM
 {
     public abstract class ModelBase<T> : IDisposable
     {

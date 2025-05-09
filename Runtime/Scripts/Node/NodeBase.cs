@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace LJVoyage.Game.Node
+namespace LJVoyage.Game.Runtime.Node
 {
     [Serializable]
     public class NodeBase : ScriptableObject, ICloneable

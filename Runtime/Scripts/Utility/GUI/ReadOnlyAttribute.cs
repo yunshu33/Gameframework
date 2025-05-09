@@ -4,7 +4,7 @@ using UnityEditor;
 #endif
 
 
-namespace LJVoyage.Game.Utility
+namespace LJVoyage.Game.Runtime.Utility
 {
     public class ReadOnlyAttribute : PropertyAttribute
     {

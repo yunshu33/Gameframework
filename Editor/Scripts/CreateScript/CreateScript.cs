@@ -193,23 +193,23 @@ namespace LJVoyage.Game.Editor
         /// <param name="path"> 脚本路径 </param>
         static void CopyrightAnnotation(string path)
         {
-            string[] guids = AssetDatabase.FindAssets("t:" + nameof(GameWorldEditorConfig));
-
-            var editorConfig =
-                AssetDatabase.LoadAssetAtPath<GameWorldEditorConfig>(
-                    AssetDatabase.GUIDToAssetPath(guids.FirstOrDefault()));
-
-            string _fileText = File.ReadAllText(path);
-
-            _fileText = _fileText.Replace("#COPYRIGHTYEAR#", System.DateTime.Now.Year.ToString())
-                .Replace("#AuthorName#", editorConfig.m_authorName)
-                .Replace("#CreateTime#", System.DateTime.Now.ToString(DateFormat))
-                .Replace("#NAMESPACE#", editorConfig.m_namespace)
-                .Replace("#COMPANYNAME#", editorConfig.m_companyName);
-
-            File.WriteAllText(path, _fileText);
-
-            AssetDatabase.Refresh();
+            // string[] guids = AssetDatabase.FindAssets("t:" + nameof(GameWorldEditorConfig));
+            //
+            // var editorConfig =
+            //     AssetDatabase.LoadAssetAtPath<GameWorldEditorConfig>(
+            //         AssetDatabase.GUIDToAssetPath(guids.FirstOrDefault()));
+            //
+            // string _fileText = File.ReadAllText(path);
+            //
+            // _fileText = _fileText.Replace("#COPYRIGHTYEAR#", System.DateTime.Now.Year.ToString())
+            //     .Replace("#AuthorName#", editorConfig.m_authorName)
+            //     .Replace("#CreateTime#", System.DateTime.Now.ToString(DateFormat))
+            //     .Replace("#NAMESPACE#", editorConfig.m_namespace)
+            //     .Replace("#COMPANYNAME#", editorConfig.m_companyName);
+            //
+            // File.WriteAllText(path, _fileText);
+            //
+            // AssetDatabase.Refresh();
         }
     }
 }

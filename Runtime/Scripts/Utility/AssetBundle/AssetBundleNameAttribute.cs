@@ -14,7 +14,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LJVoyage.Game.Utility
+namespace LJVoyage.Game.Runtime.Utility
 {
     public class AssetBundleNameAttribute : PropertyAttribute
     {

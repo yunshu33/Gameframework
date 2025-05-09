@@ -1,10 +1,8 @@
-
-using LJVoyage.Game;
-using LJVoyage.Game.Editor;
+using LJVoyage.Game.Runtime.TimeLine;
 using UnityEditor.UIElements;
 using UnityEngine.UIElements;
 
-namespace Yun.TimeLine
+namespace LJVoyage.Game.Editor.TimeLine
 {
     public class VernierGroup : GroupTrack
     {

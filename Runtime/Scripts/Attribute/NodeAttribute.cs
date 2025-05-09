@@ -1,6 +1,6 @@
 using System;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     public class NodeAttribute : Attribute
     {

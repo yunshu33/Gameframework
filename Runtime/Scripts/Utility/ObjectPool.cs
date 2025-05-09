@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     public class ObjectPool<T> where T : class , new()
     {

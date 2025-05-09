@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using LJVoyage.Game.Node;
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime.Node
 {
-    [CreateAssetMenu(menuName = "Y/GraphView/ScriptableObject")]
+    [CreateAssetMenu(menuName = "LJVoyage/GraphView/ScriptableObject")]
     
     [Serializable]
     public class GraphViewScriptableObject : ScriptableObject

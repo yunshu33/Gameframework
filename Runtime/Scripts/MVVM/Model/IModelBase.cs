@@ -15,7 +15,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LJVoyage.Game.MVVM
+namespace LJVoyage.Game.Runtime.MVVM
 {
     public interface IModelBase<T> where T : class
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine.Events;
 
-namespace LJVoyage.Game.MVVM
+namespace LJVoyage.Game.Runtime.MVVM
 {
     /// <summary>
     /// 绑定描述

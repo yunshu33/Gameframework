@@ -17,7 +17,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace LJVoyage.Game.UI
+namespace LJVoyage.Game.Runtime.UI
 {
     public static class ToggleExpand
     {

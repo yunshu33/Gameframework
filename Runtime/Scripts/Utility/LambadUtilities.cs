@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     public static class LambadUtilities
     {

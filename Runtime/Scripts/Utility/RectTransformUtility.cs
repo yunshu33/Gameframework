@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     public static class RectTransformUtility 
     {

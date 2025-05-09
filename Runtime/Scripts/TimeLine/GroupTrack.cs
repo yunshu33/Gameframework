@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace Yun.TimeLine
+namespace LJVoyage.Game.Runtime.TimeLine
 {
     public class GroupTrack
     {

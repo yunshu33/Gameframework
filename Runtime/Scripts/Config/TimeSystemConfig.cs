@@ -3,7 +3,7 @@ using System.Xml;
 using System.Xml.Schema;
 using System.Xml.Serialization;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     public class TimeSystemConfig : IXmlSerializable
     {

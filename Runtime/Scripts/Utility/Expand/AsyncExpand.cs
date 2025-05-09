@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 using UnityEngine;
 
 
-namespace LJVoyage.Game.Utility { 
+namespace LJVoyage.Game.Runtime.Utility { 
 /// <summary>
 /// 异步拓展
 /// </summary>

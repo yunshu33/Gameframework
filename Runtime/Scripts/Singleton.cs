@@ -1,6 +1,6 @@
 using System;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     /// <summary>
     /// 单例

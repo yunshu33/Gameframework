@@ -12,7 +12,7 @@
 
 using UnityEngine;
 
-namespace LJVoyage.Game.Utility
+namespace LJVoyage.Game.Runtime.Utility
 {
 	/// <summary>
 	/// 场景名称属性

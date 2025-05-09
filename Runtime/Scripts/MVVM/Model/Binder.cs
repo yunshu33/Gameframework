@@ -18,7 +18,7 @@ using System.Linq.Expressions;
 using System.Runtime.CompilerServices;
 using UnityEngine.Events;
 
-namespace LJVoyage.Game.MVVM
+namespace LJVoyage.Game.Runtime.MVVM
 {
     public class Binder<T> : IDisposable where T : class
     {

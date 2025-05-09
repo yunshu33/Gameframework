@@ -1,9 +1,9 @@
 using System;
-using LJVoyage.Game.Utility;
+using LJVoyage.Game.Runtime.Utility;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-namespace LJVoyage.Game.UI
+namespace LJVoyage.Game.Runtime.UI
 {
 
     public class ScrollItemInfo : UIBehaviour

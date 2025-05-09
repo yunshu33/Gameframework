@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime
 {
     [Serializable]
     public class EdgeInfo

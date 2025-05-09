@@ -1,6 +1,6 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
+using LJVoyage.Game.Runtime.Graph;
 using UnityEditor;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
@@ -10,7 +10,7 @@ using UnityEngine;
 namespace LJVoyage.Game.Editor.Dialogue
 {
 
-    [IsDialogueNode("场景/场景列表")]
+    [IsDialogueNode("LJVoyage/Scene/场景列表")]
     public class SceneListNode : DialogueNodeBase, ISetData<SceneListData>
     {
 
@@ -91,5 +91,7 @@ namespace LJVoyage.Game.Editor.Dialogue
 
             return list;
         }
+
+       
     }
 }

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime.Graph
 {
     [CreateAssetMenu(menuName = "Dialogue/GraphView", fileName = "GraphView")]
     public class DialogueGraphViewData : ScriptableObject

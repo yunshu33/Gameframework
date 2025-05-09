@@ -1,6 +1,6 @@
 ﻿
 
-namespace LJVoyage.Game.Node
+namespace LJVoyage.Game.Runtime.Node
 {
     [Node(nodeName = nameof(TestNode),tag = nameof(LJVoyage.Game))]
     public class TestNode : NodeBase

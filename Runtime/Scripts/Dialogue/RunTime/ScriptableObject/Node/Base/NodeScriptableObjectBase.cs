@@ -1,8 +1,8 @@
-﻿using System.Collections;
+﻿
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace LJVoyage.Game
+namespace LJVoyage.Game.Runtime.Graph
 {
     public class NodeScriptableObjectBase : ScriptableObject
     {
