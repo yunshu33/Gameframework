@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEditor.Callbacks;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Graph
 {
     public class GraphViewWindow : EditorWindow
     {

@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace LJVoyage.Game.Editor
+namespace LJVoyage.Game.Editor.Graph
 {
     public class EdgeConnector<TEdge> : EdgeConnector where TEdge : Edge, new()
     {
@@ -14,7 +14,7 @@ namespace LJVoyage.Game.Editor
         
         private Vector2 m_MouseDownPosition;
 
-        protected GraphView graphView;
+        private GraphView graphView;
 
         public EdgeConnector(IEdgeConnectorListener listener)
         {
@@ -49,7 +49,7 @@ namespace LJVoyage.Game.Editor
             target.UnregisterCallback<MouseCaptureOutEvent>(OnCaptureOut);
         }
 
-        protected virtual void OnMouseDown(MouseDownEvent e)
+        private void OnMouseDown(MouseDownEvent e)
         {
             if (m_Active)
             {
@@ -85,7 +85,7 @@ namespace LJVoyage.Game.Editor
             Abort();
         }
 
-        protected virtual void OnMouseMove(MouseMoveEvent e)
+        private void OnMouseMove(MouseMoveEvent e)
         {
             if (!m_Active)
                 return;
@@ -95,7 +95,7 @@ namespace LJVoyage.Game.Editor
             e.StopPropagation();
         }
 
-        protected virtual void OnMouseUp(MouseUpEvent e)
+        private void OnMouseUp(MouseUpEvent e)
         {
             if (!m_Active || !CanStopManipulation(e))
                 return;

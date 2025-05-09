@@ -6,11 +6,11 @@ using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace LJVoyage.Game.Editor{
+namespace LJVoyage.Game.Editor.Excel{
 
 public class BuildExcelWindow : EditorWindow
 {
-    [MenuItem("MyTools/打表窗口")]
+    [MenuItem("LJVoyage/Tools/打表窗口")]
     public static void ShowExcelWindow()
     {
         //显示操作窗口方式一
